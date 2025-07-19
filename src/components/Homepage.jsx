@@ -1,24 +1,12 @@
-import React from "react";
-import { useAvatarState } from "../state/avatar";
-import { useDreamFusion } from "../state/dreamFusion";
-import { useTimeline } from "../state/timeline";
-import { generateDiagnosticLoop } from "../lib/diagnosticLoop";
-
 export default function Homepage() {
-  const avatar = useAvatarState();
-  const dream = useDreamFusion();
-  const timeline = useTimeline();
-
-  React.useEffect(() => {
-    generateDiagnosticLoop(avatar, dream, timeline);
-  }, [avatar, dream, timeline]);
-
   return (
-    <div className="p-6 text-blue-400 bg-black min-h-screen flex flex-col items-center justify-center glow-blue">
-      <h1 className="text-4xl font-bold mb-4">ChronoVerse Homepage</h1>
-      <p>Welcome, {avatar.name || "Traveler"}.</p>
-      <p>Current Dream Symbol: {dream.currentSymbol || "None"}</p>
-      <p>Timeline Position: {timeline.position || 0}</p>
+    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white flex flex-col items-center justify-center">
+      <h1 className="text-5xl font-bold mb-6">🌌 Welcome to the ChronoVerse</h1>
+      <p className="text-xl mb-6 text-gray-300">Explore, evolve, and extend your timeline.</p>
+      <div className="flex gap-4">
+        <a href="/systems" className="px-6 py-3 bg-cyan-600 rounded-xl shadow hover:bg-cyan-500">Launch Systems</a>
+        <a href="/research" className="px-6 py-3 bg-purple-600 rounded-xl shadow hover:bg-purple-500">Researcher Portal</a>
+      </div>
     </div>
   );
 }
