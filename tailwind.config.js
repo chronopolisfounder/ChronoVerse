@@ -1,10 +1,13 @@
-module.exports = {
-  content: ['./index.html', './src/**/*.{js,jsx}'],
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
-      colors: {
-        chronoBlue: '#0ff',
-        chronoDark: '#0a0a0a',
+      dropShadow: {
+        glow: "0 0 8px rgba(0, 255, 255, 0.8)",
       },
     },
   },
