@@ -1,22 +1,21 @@
-// server/index.js
-import express from "express";
+import express from 'express';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
 const app = express();
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3000;
 
-// Middleware to parse JSON bodies
-app.use(express.json());
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-// Simple test route
-app.get("/", (req, res) => {
-  res.send("ChronoVerse Backend is up and running 🚀");
-});
+// Serve the static frontend build folder
+app.use(express.static(path.join(__dirname, '../dist')));
 
-// Example API endpoint
-app.get("/api/status", (req, res) => {
-  res.json({ status: "OK", timestamp: new Date().toISOString() });
+// Fallback to index.html for SPA routing
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../dist/index.html'));
 });
 
 app.listen(PORT, () => {
-  console.log(`ChronoVerse backend listening on port ${PORT}`);
+  console.log(`Server running on http://localhost:${PORT}`);
 });
