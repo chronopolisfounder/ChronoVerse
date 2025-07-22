@@ -1,0 +1,13 @@
+<div className="mt-12 flex justify-center space-x-6">
+  <ChronoRouter to="/research">
+    <button className="px-6 py-3 rounded-xl text-black font-semibold bg-tronPink hover:bg-tronNeon shadow-neon transition">
+      🔬 Enter Research Lab
+    </button>
+  </ChronoRouter>
+
+  <ChronoRouter to="/sync">
+    <button className="px-6 py-3 rounded-xl text-black font-semibold bg-tronNeon hover:bg-tronPink shadow-neon transition">
+      🧠 Log Health
+    </button>
+  </ChronoRouter>
+</div>

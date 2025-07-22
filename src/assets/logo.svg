@@ -1,0 +1,12 @@
+<!-- logo.svg -->
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="40" cy="40" r="36" fill="url(#a)" stroke="#1fffe7" stroke-width="3"></circle>
+  <path d="M40 15v50M15 40h50" stroke="#1fffe7" stroke-width="3" stroke-linecap="round"></path>
+  <circle cx="40" cy="40" r="18" stroke="#47d1ff" stroke-width="2" fill="none"></circle>
+  <defs>
+    <radialGradient id="a" cx="0" cy="0" r="1" gradientTransform="translate(40 40) scale(38)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1fffe7"></stop>
+      <stop offset="1" stop-color="#011319"></stop>
+    </radialGradient>
+  </defs>
+</svg>

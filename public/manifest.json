@@ -1,0 +1,15 @@
+﻿{
+  "name": "ChronoVerse",
+  "short_name": "ChronoVerse",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#011319",
+  "theme_color": "#1fffe7",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ]
+}

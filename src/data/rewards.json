@@ -1,0 +1,32 @@
+[
+  {
+    "tag": "#GutSupport",
+    "coins": 15,
+    "description": "Complete a gut health protocol"
+  },
+  {
+    "tag": "#Fermented",
+    "coins": 15,
+    "description": "Log a fermented food or drink"
+  },
+  {
+    "tag": "#SleepSync",
+    "coins": 10,
+    "description": "Sync sleep data for 7 days"
+  },
+  {
+    "tag": "#AvatarGlow",
+    "coins": 20,
+    "description": "Reach 90% avatar energy"
+  },
+  {
+    "tag": "#Community",
+    "coins": 10,
+    "description": "Share a research article with the community"
+  },
+  {
+    "tag": "#Longevity",
+    "coins": 25,
+    "description": "Complete a longevity simulation cycle"
+  }
+]

@@ -1,0 +1,6 @@
+﻿[
+  { "id": "fatigue", "label": "Fatigue" },
+  { "id": "nausea", "label": "Nausea" },
+  { "id": "headache", "label": "Headache" },
+  { "id": "fever", "label": "Fever" }
+]

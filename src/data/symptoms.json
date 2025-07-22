@@ -1,0 +1,10 @@
+[
+  { "id": "fatigue", "label": "Fatigue" },
+  { "id": "nausea", "label": "Nausea" },
+  { "id": "brain_fog", "label": "Brain Fog" },
+  { "id": "muscle_pain", "label": "Muscle Pain" },
+  { "id": "headache", "label": "Headache" },
+  { "id": "insomnia", "label": "Insomnia" },
+  { "id": "anxiety", "label": "Anxiety" },
+  { "id": "joint_stiffness", "label": "Joint Stiffness" }
+]

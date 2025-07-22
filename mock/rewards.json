@@ -1,0 +1,18 @@
+﻿[
+  {
+    "id": "daily_login",
+    "name": "Daily Login Bonus",
+    "description": "Awarded each day you sign in to ChronoVerse.",
+    "points": 25,
+    "icon": "calendar-check",
+    "repeatable": true
+  },
+  {
+    "id": "first_research_submitted",
+    "name": "First Research Submission",
+    "description": "Reward for submitting your first research module.",
+    "points": 100,
+    "icon": "file-plus",
+    "repeatable": false
+  }
+]

@@ -1,0 +1,11 @@
+﻿[
+  {
+    "id": "cyberglass-panel",
+    "name": "CyberGlass Panel",
+    "description": "Transparent nano-glass with embedded data diodes and dynamic light piping for real-time visualizations.",
+    "category": "interface",
+    "rarity": "rare",
+    "powerUsage": "Low",
+    "enabled": true
+  }
+]
